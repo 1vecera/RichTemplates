@@ -1,0 +1,64 @@
+
+
+font.family: Century Gothic
+font.size: 16
+
+
+
+# AXES
+
+axes.titlesize : 16
+axes.labelsize : 14
+axes.edgecolor : 012169 #Normalized RGB colours (from 0 to 1 instead of 0 to 255)
+axes.labelcolor : 012169
+axes.linewidth : 1
+
+axes.spines.top : False
+axes.spines.right : False
+axes.spines.bottom : True
+axes.spines.left : False
+
+# GRID
+axes.grid : True
+grid.alpha : 0.7
+axes.grid.axis : y
+grid.linestyle : --
+grid.linewidth : 0.6
+
+# LINES
+axes.prop_cycle : cycler('color', [ '000', 'CE0037', 'EFDF00', 'ED8B00', '41B6E6','00664F','575756']) #hex colours
+lines.linewidth : 1.5
+lines.markeredgewidth : 0.0
+
+# SCATTER PLOT
+scatter.marker : .
+
+# TICKS
+xtick.labelsize : 14
+xtick.color : 012169
+xtick.direction : inout
+xtick.major.size : 10
+xtick.minor.size : 5
+xtick.minor.visible : False
+
+# Ytick
+
+ytick.labelsize : 14
+ytick.color : 012169
+ytick.direction : in
+ytick.major.size : 14
+ytick.minor.visible : False
+ytick.minor.size : 5
+
+# FIGURE OUTPUT
+figure.figsize  : 12, 8
+figure.dpi : 150
+savefig.dpi : 200
+
+#Legend
+
+legend.frameon :  True
+legend.fontsize : 14
+legend.edgecolor : 1
+legend.borderpad : 0
+legend.handleheight : 0
