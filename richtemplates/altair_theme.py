@@ -1,4 +1,57 @@
-def RichView_Theme():
+def get_richview_theme():
+    richview_theme ={
+            'config': {
+                'background': '#FAF9F6',
+                'view': {
+                    'stroke': 'transparent',
+                    'width': 450,
+                    'height': 300,
+                },
+                'axis': {
+                    'gridColor': '#CCC1B7',
+                    'gridWidth': 0.2,
+                    'grid':True,
+                    'labelFont': 'Lora, Palatino Linotype, Cambria, Century Gothic',
+                    'labelFontSize': 9.6,
+                    'labelColor': '#4D4845',
+                    'titleFont': 'Lora, Palatino Linotype, Cambria, Century Gothic',
+                    'titleFontSize': 0,
+                    'titleColor': '#4D4845',
+                    'domainColor': '#4D4845',
+                    'domainWidth': 0.2,
+                    'tickColor': '#4D4845',
+                    'tickWidth': 0.2,
+                    'tickLength': 3.5
+
+                },
+                'axisX': {'grid':False},
+                'axisY': {'line':None, 'domainOpacity':0},
+
+                'legend': {
+                    'titleFontSize': 0,
+                    'orient': 'top',
+                    'direction':'horizontal',
+
+                },
+            'title': {
+
+                'anchor': 'start',
+                'align':'left',
+                'fontWeight':'normal',
+                'dx': 40,
+                'font': 'Lora, Palatino Linotype, Cambria, Century Gothic',
+            },
+                'range': {
+                    'category': [
+                        "#186cac", "#81e7cc", "#eec8f1", "#dce475", "#86ec5a", "#eb70d5", "#829951", "#5a3386",
+                        "#a50fa9", "#4ba40b"
+                    ]
+                }
+            }
+        }
+    return richview_theme
+
+def scientific_theme():
     font = 'Cambria',
     fontsize = 14
     fontColor = '#000000',

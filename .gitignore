@@ -6,3 +6,7 @@ richtemplates.egg-info/8
 dist/*
 dist/
 ~*
+richtemplates/__pycache__/altair_theme.cpython-310.pyc
+*.pyc
+richtemplates/
+richtemplates/*
