@@ -1,2 +1,8 @@
 richview.egg-info/*
 build/*
+.env
+richtemplates.egg-info/
+richtemplates.egg-info/8
+dist/*
+dist/
+~*

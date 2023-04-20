@@ -1,64 +1,70 @@
+# Financial Times matplotlib style
+
+# Colors
+axes.facecolor : FAF9F6
+axes.edgecolor : CCC1B7
+axes.labelcolor : 4D4845
+xtick.color : 4D4845
+ytick.color : 4D4845
+grid.color : CCC1B7
+figure.facecolor : FAF9F6
+figure.edgecolor : FAF9F6
+savefig.facecolor : FAF9F6
+savefig.edgecolor : FAF9F6
+
+# Grid
+axes.grid : True
+grid.linestyle : -
+grid.linewidth : 0.2
+grid.alpha : 1
+axes.grid.axis : y
+
+# Ticks
+xtick.direction : out
+ytick.direction : out
+ytick.major.size : 0
+ytick.major.visible : false
+ytick.minor.visible : False
+
+xtick.major.size : 3.5
+xtick.minor.size : 2
 
 
-font.family: Century Gothic
-font.size: 16
+# Lines
+axes.prop_cycle : cycler('color', ["186cac","81e7cc","eec8f1","dce475","86ec5a","eb70d5","829951","5a3386","a50fa9","4ba40b"]) #hex colours
 
+# Fonts
+font.size : 12
+font.family : Lora,Palatino Linotype, Cambria, Century Gothic
+font.sans-serif : Lora, Palatino Linotype, Cambria, Century Gothic, DejaVu Sans, Liberation Sans, Bitstream Vera Sans, sans-serif
+axes.labelsize : 10.8
+axes.titlesize : 14.4
+xtick.labelsize : 9.6
+ytick.labelsize : 9.6
+legend.fontsize : 9.6
 
+# Legend
+legend.frameon : False
+legend.loc : upper left
+legend.columnspacing : 1
+legend.handletextpad : 0.8
+legend.handlelength : 2
+legend.labelspacing : 0.5
 
-# AXES
+# Figure
+figure.figsize : 6, 4
+figure.dpi : 100
+figure.subplot.bottom : 0.125
+figure.subplot.top : 0.88
+figure.subplot.left : 0.125
+figure.subplot.right : 0.9
 
-axes.titlesize : 16
-axes.labelsize : 14
-axes.edgecolor : 012169 #Normalized RGB colours (from 0 to 1 instead of 0 to 255)
-axes.labelcolor : 012169
-axes.linewidth : 1
-
+# Axes
+axes.titlepad : 6
+axes.labelpad : 4
 axes.spines.top : False
 axes.spines.right : False
 axes.spines.bottom : True
 axes.spines.left : False
-
-# GRID
-axes.grid : True
-grid.alpha : 0.7
-axes.grid.axis : y
-grid.linestyle : --
-grid.linewidth : 0.6
-
-# LINES
-axes.prop_cycle : cycler('color', [ '000', 'CE0037', 'EFDF00', 'ED8B00', '41B6E6','00664F','575756']) #hex colours
-lines.linewidth : 1.5
-lines.markeredgewidth : 0.0
-
-# SCATTER PLOT
-scatter.marker : .
-
-# TICKS
-xtick.labelsize : 14
-xtick.color : 012169
-xtick.direction : inout
-xtick.major.size : 10
-xtick.minor.size : 5
-xtick.minor.visible : False
-
-# Ytick
-
-ytick.labelsize : 14
-ytick.color : 012169
-ytick.direction : in
-ytick.major.size : 14
-ytick.minor.visible : False
-ytick.minor.size : 5
-
-# FIGURE OUTPUT
-figure.figsize  : 12, 8
-figure.dpi : 150
-savefig.dpi : 200
-
-#Legend
-
-legend.frameon :  True
-legend.fontsize : 14
-legend.edgecolor : 1
-legend.borderpad : 0
-legend.handleheight : 0
+axes.xmargin : 0.05
+axes.ymargin : 0.05
