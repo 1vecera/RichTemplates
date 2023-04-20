@@ -53,7 +53,7 @@ legend.labelspacing : 0.5
 
 
 # Figure
-figure.figsize : 6, 4
+figure.figsize : 9, 8
 figure.dpi : 100
 figure.subplot.bottom : 0.125
 figure.subplot.top : 0.88

@@ -1,0 +1,137 @@
+{
+    "name": "RichView",
+    "dataColors": [
+        "#186CAC",
+        "#81e7cc",
+        "#eec8f1",
+        "#dce475",
+        "#86ec5a",
+        "#eb70d5",
+        "#829951",
+        "#5a3386"
+    ],
+    "background": "#FAF9F6",
+    "foreground": "#4D4845",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "fontSize": 12,
+                "fontFamily": "Lora, Palatino Linotype, Cambria, Century Gothic",
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FAF9F6"
+                            }
+                        }
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "background": {
+                            "solid": {
+                                "color": "#FAF9F6"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FAF9F6"
+                            }
+                        }
+                    }
+                ]
+            },
+            "title": {
+                "fontSize": 14.4
+            },
+            "xAxis": {
+                "title": {
+                    "fontSize": 10.8,
+                    "show": false
+                },
+                "label": {
+                    "fontSize": 9.6
+                }
+            },
+            "yAxis": {
+                "title": {
+                    "fontSize": 10.8,
+                    "show": false
+                },
+                "label": {
+                    "fontSize": 9.6
+                }
+            },
+            "legend": {
+                "label": {
+                    "fontSize": 9.6
+                }
+            },
+            "categoryAxis": [
+                {
+                    "show": true,
+                    "showAxisTitle": false
+                }
+            ],
+            "valueAxis": [
+                {
+                    "show": true,
+                    "showAxisTitle": false,
+                    "gridlinesShow": false,
+                    "gridlinesColor": {
+                        "solid": {
+                            "color": "#f00"
+                        }
+                    },
+                    "gridlineStyle": "solid"
+                }
+            ]
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FAF9F6"
+                            }
+                        },
+                        "transparency": 100
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FAF9F6"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "textClasses": {
+        "label": {
+            "color": "#CCC1B7",
+            "fontFace": "Cambria",
+            "fontSize": 12
+        },
+        "callout": {
+            "color": "#CCC1B7",
+            "fontFace": "Cambria"
+        },
+        "title": {
+            "color": "#000000",
+            "fontFace": "Cambria"
+        },
+        "header": {
+            "color": "#CCC1B7",
+            "fontFace": "Cambria"
+        }
+    }
+}
