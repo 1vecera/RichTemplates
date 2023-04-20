@@ -1,4 +1,4 @@
-# Financial Times matplotlib style
+# RichView Matplotlib Style
 
 # Colors
 axes.facecolor : FAF9F6
@@ -23,7 +23,6 @@ axes.grid.axis : y
 xtick.direction : out
 ytick.direction : out
 ytick.major.size : 0
-ytick.major.visible : false
 ytick.minor.visible : False
 
 xtick.major.size : 3.5
@@ -51,6 +50,8 @@ legend.handletextpad : 0.8
 legend.handlelength : 2
 legend.labelspacing : 0.5
 
+
+
 # Figure
 figure.figsize : 6, 4
 figure.dpi : 100
@@ -68,3 +69,12 @@ axes.spines.bottom : True
 axes.spines.left : False
 axes.xmargin : 0.05
 axes.ymargin : 0.05
+
+# Title and Suptitle
+axes.titlelocation : left
+figure.titlesize : 14.4
+
+
+
+
+
