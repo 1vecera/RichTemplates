@@ -16,8 +16,6 @@ Once done, sipmly run pip install .
 That will install the package and you can use it in your own code.
 
 
-The goal is that you adjust the
-
 # For R (GGPLOT2)
 Adjust the R_Theme to your liking to generate charts of your liking
 
