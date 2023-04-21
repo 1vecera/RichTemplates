@@ -14,7 +14,6 @@ Go to the tutorial.ipynb  and play with it.
 Adjust richview.mplstyle and altair.py and plotly_theme.py to generate styles that you love!
 Once done, sipmly run pip install .
 That will install the package and you can use it in your own code.
-To use it,
 
 
 The goal is that you adjust the
